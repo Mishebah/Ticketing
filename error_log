@@ -1,0 +1,869 @@
+[22-Feb-2017 16:46:11 Africa/Nairobi] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR in /home/secudesk/public_html/frontdesk/frontend/web/index.php on line 17
+[02-Mar-2017 14:42:44 Africa/Nairobi] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR in /home/secudesk/public_html/frontdesk/frontend/web/index.php on line 17
+[02-Mar-2017 14:42:53 Africa/Nairobi] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR in /home/secudesk/public_html/frontdesk/frontend/web/index.php on line 17
+[02-Mar-2017 14:42:59 Africa/Nairobi] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR in /home/secudesk/public_html/frontdesk/frontend/web/index.php on line 17
+[02-Mar-2017 15:41:41 Africa/Nairobi] PHP Parse error:  syntax error, unexpected '{' in /home/secudesk/public_html/frontdesk/common/models/LoginForm.php on line 50
+[02-Mar-2017 15:42:13 Africa/Nairobi] PHP Fatal error:  Call to a member function validatePassword() on a non-object in /home/secudesk/public_html/frontdesk/common/models/LoginForm.php on line 49
+[02-Mar-2017 15:44:51 Africa/Nairobi] PHP Fatal error:  Class name must be a valid object or a string in /home/secudesk/public_html/frontdesk/common/models/LoginForm.php on line 49
+[02-Mar-2017 15:47:39 Africa/Nairobi] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT) in /home/secudesk/public_html/frontdesk/common/models/LoginForm.php on line 46
+[02-Mar-2017 16:20:45 Africa/Nairobi] PHP Fatal error:  Class common\models\User contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (yii\web\IdentityInterface::getAuthKey) in /home/secudesk/public_html/frontdesk/common/models/User.php on line 190
+[02-Mar-2017 16:21:33 Africa/Nairobi] PHP Fatal error:  Class common\models\User contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (yii\web\IdentityInterface::getAuthKey, yii\web\IdentityInterface::validateAuthKey) in /home/secudesk/public_html/frontdesk/common/models/User.php on line 191
+[02-Mar-2017 16:24:29 Africa/Nairobi] An Error occurred while handling another error:
+exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: common\models\User::username' in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/BaseActiveRecord.php(286): yii\base\Component->__get('username')
+#1 /home/secudesk/public_html/frontdesk/frontend/views/layouts/main.php(49): yii\db\BaseActiveRecord->__get('username')
+#2 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/View.php(326): require('/home/secudesk/...')
+#3 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/View.php(248): yii\base\View->renderPhpFile('/home/secudesk/...', Array)
+#4 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(393): yii\base\View->renderFile('/home/secudesk/...', Array, Object(frontend\controllers\SiteController))
+#5 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(379): yii\base\Controller->renderContent('<div class="sit...')
+#6 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/ErrorAction.php(109): yii\base\Controller->render('error', Array)
+#7 [internal function]: yii\web\ErrorAction->run()
+#8 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#9 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\Action->runWithParams(Array)
+#10 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#11 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('site/error')
+#12 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#13 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#14 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/filters/AccessControl.php:151
+Stack trace:
+#0 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/filters/AccessControl.php(134): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/ActionFilter.php(73): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Component.php(540): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(269): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(152): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#8 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('site/login', Array)
+#9 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /home/secudesk/public_html/frontdesk/frontend/web/index.php(18): yii\base\Application->run()
+#11 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '240',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+    'DOCUMENT_ROOT' => '/usr/local/apache/htdocs',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'text/html, application/xhtml+xml, image/jxr, */*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-NZ',
+    'HTTP_CACHE_CONTROL' => 'no-cache',
+    'HTTP_CONNECTION' => 'Keep-Alive',
+    'HTTP_COOKIE' => 'cpsession=secudesk%3apMubgTezMAeg7BBo%2c6a7dfbf92de42339f4620b6ac1dfa4a9; timezone=Asia/Baghdad; advanced-frontend=v3v4hmdulpfh1inke7h2v7po97; _csrf-frontend=005d95f6c4cf200bf423beb97403116fc063e3ca56561524505d8e87e3db49caa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KhTR_DdPzGGwU54tBxh5J8DkDCV_DSZv%22%3B%7D',
+    'HTTP_HOST' => '69.16.238.208',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586',
+    'PATH' => '/bin:/usr/bin',
+    'PATH_INFO' => '/site/login',
+    'PATH_TRANSLATED' => '/home/secudesk/public_html/frontdesk/frontend/web/index.php',
+    'QUERY_STRING' => '',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '41.72.216.142',
+    'REMOTE_PORT' => '55386',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_URI' => '/~secudesk/frontdesk/frontend/web/index.php/site/login',
+    'SCRIPT_FILENAME' => '/home/secudesk/public_html/frontdesk/frontend/web/index.php',
+    'SCRIPT_NAME' => '/~secudesk/frontdesk/frontend/web/index.php',
+    'SERVER_ADDR' => '69.16.238.208',
+    'SERVER_ADMIN' => 'deepafrica@gmail.com',
+    'SERVER_NAME' => '69.16.238.208',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips DAV/2 mod_bwlimited/1.4',
+    'SPT_DOCROOT' => '/home/secudesk/public_html',
+    'UNIQUE_ID' => 'WLgdDUUQ7tAABmKuCYoAAAPA',
+    'PHP_SELF' => '/~secudesk/frontdesk/frontend/web/index.php/site/login',
+    'REQUEST_TIME_FLOAT' => 1488461069.287384033203125,
+    'REQUEST_TIME' => 1488461069,
+]
+[02-Mar-2017 16:28:41 Africa/Nairobi] An Error occurred while handling another error:
+exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: common\models\User::username' in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/BaseActiveRecord.php(286): yii\base\Component->__get('username')
+#1 /home/secudesk/public_html/frontdesk/frontend/views/layouts/main.php(49): yii\db\BaseActiveRecord->__get('username')
+#2 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/View.php(326): require('/home/secudesk/...')
+#3 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/View.php(248): yii\base\View->renderPhpFile('/home/secudesk/...', Array)
+#4 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(393): yii\base\View->renderFile('/home/secudesk/...', Array, Object(frontend\controllers\SiteController))
+#5 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(379): yii\base\Controller->renderContent('<div class="sit...')
+#6 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/ErrorAction.php(109): yii\base\Controller->render('error', Array)
+#7 [internal function]: yii\web\ErrorAction->run()
+#8 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#9 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\Action->runWithParams(Array)
+#10 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#11 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('site/error')
+#12 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#13 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#14 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/filters/AccessControl.php:151
+Stack trace:
+#0 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/filters/AccessControl.php(134): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/ActionFilter.php(73): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Component.php(540): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(269): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(152): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#8 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('site/login', Array)
+#9 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /home/secudesk/public_html/frontdesk/frontend/web/index.php(18): yii\base\Application->run()
+#11 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '240',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+    'DOCUMENT_ROOT' => '/usr/local/apache/htdocs',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'text/html, application/xhtml+xml, image/jxr, */*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-NZ',
+    'HTTP_CACHE_CONTROL' => 'no-cache',
+    'HTTP_CONNECTION' => 'Keep-Alive',
+    'HTTP_COOKIE' => 'cpsession=secudesk%3apMubgTezMAeg7BBo%2c6a7dfbf92de42339f4620b6ac1dfa4a9; timezone=Asia/Baghdad; advanced-frontend=v3v4hmdulpfh1inke7h2v7po97; _csrf-frontend=005d95f6c4cf200bf423beb97403116fc063e3ca56561524505d8e87e3db49caa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KhTR_DdPzGGwU54tBxh5J8DkDCV_DSZv%22%3B%7D',
+    'HTTP_HOST' => '69.16.238.208',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586',
+    'PATH' => '/bin:/usr/bin',
+    'PATH_INFO' => '/site/login',
+    'PATH_TRANSLATED' => '/home/secudesk/public_html/frontdesk/frontend/web/index.php',
+    'QUERY_STRING' => '',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '41.72.216.142',
+    'REMOTE_PORT' => '55392',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_URI' => '/~secudesk/frontdesk/frontend/web/index.php/site/login',
+    'SCRIPT_FILENAME' => '/home/secudesk/public_html/frontdesk/frontend/web/index.php',
+    'SCRIPT_NAME' => '/~secudesk/frontdesk/frontend/web/index.php',
+    'SERVER_ADDR' => '69.16.238.208',
+    'SERVER_ADMIN' => 'deepafrica@gmail.com',
+    'SERVER_NAME' => '69.16.238.208',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips DAV/2 mod_bwlimited/1.4',
+    'SPT_DOCROOT' => '/home/secudesk/public_html',
+    'UNIQUE_ID' => 'WLgeCUUQ7tAABnhVB-cAAAKQ',
+    'PHP_SELF' => '/~secudesk/frontdesk/frontend/web/index.php/site/login',
+    'REQUEST_TIME_FLOAT' => 1488461321.3646399974822998046875,
+    'REQUEST_TIME' => 1488461321,
+]
+[02-Mar-2017 16:28:57 Africa/Nairobi] An Error occurred while handling another error:
+exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: common\models\User::username' in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/BaseActiveRecord.php(286): yii\base\Component->__get('username')
+#1 /home/secudesk/public_html/frontdesk/frontend/views/layouts/main.php(49): yii\db\BaseActiveRecord->__get('username')
+#2 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/View.php(326): require('/home/secudesk/...')
+#3 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/View.php(248): yii\base\View->renderPhpFile('/home/secudesk/...', Array)
+#4 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(393): yii\base\View->renderFile('/home/secudesk/...', Array, Object(frontend\controllers\SiteController))
+#5 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(379): yii\base\Controller->renderContent('<div class="sit...')
+#6 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/ErrorAction.php(109): yii\base\Controller->render('error', Array)
+#7 [internal function]: yii\web\ErrorAction->run()
+#8 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#9 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\Action->runWithParams(Array)
+#10 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#11 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('site/error')
+#12 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#13 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#14 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/filters/AccessControl.php:151
+Stack trace:
+#0 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/filters/AccessControl.php(134): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/ActionFilter.php(73): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Component.php(540): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(269): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(152): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#8 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('site/login', Array)
+#9 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /home/secudesk/public_html/frontdesk/frontend/web/index.php(18): yii\base\Application->run()
+#11 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '240',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+    'DOCUMENT_ROOT' => '/usr/local/apache/htdocs',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'text/html, application/xhtml+xml, image/jxr, */*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-NZ',
+    'HTTP_CACHE_CONTROL' => 'no-cache',
+    'HTTP_CONNECTION' => 'Keep-Alive',
+    'HTTP_COOKIE' => 'cpsession=secudesk%3apMubgTezMAeg7BBo%2c6a7dfbf92de42339f4620b6ac1dfa4a9; timezone=Asia/Baghdad; advanced-frontend=v3v4hmdulpfh1inke7h2v7po97; _csrf-frontend=005d95f6c4cf200bf423beb97403116fc063e3ca56561524505d8e87e3db49caa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KhTR_DdPzGGwU54tBxh5J8DkDCV_DSZv%22%3B%7D',
+    'HTTP_HOST' => '69.16.238.208',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586',
+    'PATH' => '/bin:/usr/bin',
+    'PATH_INFO' => '/site/login',
+    'PATH_TRANSLATED' => '/home/secudesk/public_html/frontdesk/frontend/web/index.php',
+    'QUERY_STRING' => '',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '41.72.216.142',
+    'REMOTE_PORT' => '55393',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_URI' => '/~secudesk/frontdesk/frontend/web/index.php/site/login',
+    'SCRIPT_FILENAME' => '/home/secudesk/public_html/frontdesk/frontend/web/index.php',
+    'SCRIPT_NAME' => '/~secudesk/frontdesk/frontend/web/index.php',
+    'SERVER_ADDR' => '69.16.238.208',
+    'SERVER_ADMIN' => 'deepafrica@gmail.com',
+    'SERVER_NAME' => '69.16.238.208',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips DAV/2 mod_bwlimited/1.4',
+    'SPT_DOCROOT' => '/home/secudesk/public_html',
+    'UNIQUE_ID' => 'WLgeGUUQ7tAABnWvfIkAAACJ',
+    'PHP_SELF' => '/~secudesk/frontdesk/frontend/web/index.php/site/login',
+    'REQUEST_TIME_FLOAT' => 1488461337.6278369426727294921875,
+    'REQUEST_TIME' => 1488461337,
+]
+[03-Mar-2017 16:18:02 Africa/Nairobi] PHP Parse error:  syntax error, unexpected 'label' (T_STRING), expecting ']' in /home/secudesk/public_html/frontdesk/frontend/views/layouts/main.php on line 47
+[10-Mar-2017 12:21:44 Africa/Nairobi] PHP Parse error:  syntax error, unexpected 'baseUrl' (T_STRING), expecting ']' in /home/secudesk/public_html/frontdesk/frontend/config/main.php on line 43
+[10-Mar-2017 16:18:05 Africa/Nairobi] PHP Fatal error:  Class 'AppAsset' not found in /home/secudesk/public_html/frontdesk/frontend/views/layouts/main.php on line 13
+[10-Mar-2017 16:18:21 Africa/Nairobi] PHP Parse error:  syntax error, unexpected '/', expecting ']' in /home/secudesk/public_html/frontdesk/frontend/assets/HomerAppAsset.php on line 15
+[14-Mar-2017 15:51:46 Africa/Nairobi] PHP Fatal error:  Class 'Menu' not found in /home/secudesk/public_html/frontdesk/frontend/views/layouts/main.php on line 108
+[14-Mar-2017 16:05:13 Africa/Nairobi] PHP Parse error:  syntax error, unexpected 'animated' (T_STRING), expecting ']' in /home/secudesk/public_html/frontdesk/frontend/views/layouts/main.php on line 99
+[15-Mar-2017 16:17:43 Africa/Nairobi] PHP Fatal error:  Class 'Modal' not found in /home/secudesk/public_html/frontdesk/frontend/views/client-hosts/index.php on line 25
+[15-Mar-2017 16:19:29 Africa/Nairobi] PHP Fatal error:  Class 'Size' not found in /home/secudesk/public_html/frontdesk/frontend/views/client-hosts/index.php on line 27
+[15-Mar-2017 16:19:47 Africa/Nairobi] PHP Fatal error:  Class 'Elements' not found in /home/secudesk/public_html/frontdesk/frontend/views/client-hosts/index.php on line 29
+[15-Mar-2017 16:21:33 Africa/Nairobi] PHP Fatal error:  Class 'Elements' not found in /home/secudesk/public_html/frontdesk/frontend/views/client-hosts/index.php on line 29
+[15-Mar-2017 16:22:02 Africa/Nairobi] PHP Fatal error:  Class 'Elements' not found in /home/secudesk/public_html/frontdesk/frontend/views/client-hosts/index.php on line 29
+[15-Mar-2017 16:22:13 Africa/Nairobi] PHP Fatal error:  Class 'Elements' not found in /home/secudesk/public_html/frontdesk/frontend/views/client-hosts/index.php on line 29
+[15-Mar-2017 16:24:29 Africa/Nairobi] PHP Parse error:  syntax error, unexpected 'text' (T_STRING), expecting ',' or ';' in /home/secudesk/public_html/frontdesk/frontend/views/client-hosts/index.php on line 35
+[23-Mar-2017 15:15:24 Africa/Nairobi] PHP Parse error:  syntax error, unexpected ''btn btn-default]) ?>' (T_ENCAPSED_AND_WHITESPACE) in /home/secudesk/public_html/frontdesk/frontend/views/client-hosts/_form.php on line 45
+[23-Mar-2017 15:32:36 Africa/Nairobi] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/secudesk/public_html/frontdesk/frontend/views/client-hosts/_form.php on line 40
+[23-Mar-2017 17:26:08 Africa/Nairobi] PHP Fatal error:  Class 'View' not found in /home/secudesk/public_html/frontdesk/frontend/views/client-hosts/_form.php on line 89
+[23-Mar-2017 17:28:33 Africa/Nairobi] PHP Fatal error:  Class 'View' not found in /home/secudesk/public_html/frontdesk/frontend/views/client-hosts/_form.php on line 89
+[23-Mar-2017 17:29:16 Africa/Nairobi] PHP Fatal error:  Class 'View' not found in /home/secudesk/public_html/frontdesk/frontend/views/client-hosts/_form.php on line 90
+[23-Mar-2017 17:29:19 Africa/Nairobi] PHP Fatal error:  Class 'View' not found in /home/secudesk/public_html/frontdesk/frontend/views/client-hosts/_form.php on line 90
+[23-Mar-2017 17:29:26 Africa/Nairobi] PHP Fatal error:  Undefined class constant 'POS_END' in /home/secudesk/public_html/frontdesk/frontend/views/client-hosts/_form.php on line 90
+[23-Mar-2017 17:30:12 Africa/Nairobi] PHP Fatal error:  Undefined class constant 'POS_READY' in /home/secudesk/public_html/frontdesk/frontend/views/client-hosts/_form.php on line 90
+[23-Mar-2017 17:31:25 Africa/Nairobi] PHP Fatal error:  Undefined class constant 'POS_READY' in /home/secudesk/public_html/frontdesk/frontend/views/client-hosts/_form.php on line 90
+[23-Mar-2017 17:31:31 Africa/Nairobi] PHP Fatal error:  Undefined class constant 'POS_READY' in /home/secudesk/public_html/frontdesk/frontend/views/client-hosts/_form.php on line 90
+[23-Mar-2017 17:31:35 Africa/Nairobi] PHP Fatal error:  Undefined class constant 'POS_READY' in /home/secudesk/public_html/frontdesk/frontend/views/client-hosts/_form.php on line 90
+[23-Mar-2017 17:32:21 Africa/Nairobi] PHP Fatal error:  Undefined class constant 'POS_READY' in /home/secudesk/public_html/frontdesk/frontend/views/client-hosts/_form.php on line 90
+[06-Apr-2017 16:48:14 Africa/Nairobi] PHP Parse error:  syntax error, unexpected '{' in /home/secudesk/public_html/frontdesk/frontend/controllers/ClientHostsController.php on line 86
+[06-Apr-2017 16:48:32 Africa/Nairobi] PHP Parse error:  syntax error, unexpected '{' in /home/secudesk/public_html/frontdesk/frontend/controllers/ClientHostsController.php on line 86
+[06-Apr-2017 16:48:59 Africa/Nairobi] PHP Parse error:  syntax error, unexpected '{' in /home/secudesk/public_html/frontdesk/frontend/controllers/ClientHostsController.php on line 86
+[13-Apr-2017 16:21:29 Africa/Nairobi] PHP Parse error:  syntax error, unexpected 'fa' (T_STRING) in /home/secudesk/public_html/frontdesk/frontend/views/client-hosts/index.php on line 20
+[05-May-2017 07:17:45 Africa/Nairobi] PHP Fatal error:  Uncaught exception 'yii\base\ErrorException' with message 'session_write_close(): write failed: No space left on device (28)' in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/Session.php:186
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'session_write_c...', '/home/secudesk/...', 186, Array)
+#1 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/Session.php(186): session_write_close()
+#2 [internal function]: yii\web\Session->close()
+#3 {main}
+  thrown in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/Session.php on line 186
+[05-May-2017 07:17:47 Africa/Nairobi] PHP Fatal error:  Uncaught exception 'yii\base\ErrorException' with message 'session_write_close(): write failed: No space left on device (28)' in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/Session.php:186
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'session_write_c...', '/home/secudesk/...', 186, Array)
+#1 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/Session.php(186): session_write_close()
+#2 [internal function]: yii\web\Session->close()
+#3 {main}
+  thrown in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/Session.php on line 186
+[18-May-2017 04:43:24 Africa/Nairobi] PHP Fatal error:  Class 'frontend\controllers\VisitorProfiles' not found in /home/secudesk/public_html/frontdesk/frontend/controllers/VisitorLogsController.php on line 71
+[18-May-2017 04:44:00 Africa/Nairobi] PHP Fatal error:  Class 'frontend\controllers\VisitorProfiles' not found in /home/secudesk/public_html/frontdesk/frontend/controllers/VisitorLogsController.php on line 71
+[18-May-2017 04:44:22 Africa/Nairobi] PHP Fatal error:  Class 'frontend\controllers\VisitorProfiles' not found in /home/secudesk/public_html/frontdesk/frontend/controllers/VisitorLogsController.php on line 71
+[18-May-2017 15:32:04 Africa/Nairobi] PHP Fatal error:  Class 'frontend\controllers\VisitorProfiles' not found in /home/secudesk/public_html/frontdesk/frontend/controllers/VisitorLogsController.php on line 71
+[18-May-2017 15:33:11 Africa/Nairobi] PHP Fatal error:  Class 'frontend\controllers\VisitorProfiles' not found in /home/secudesk/public_html/frontdesk/frontend/controllers/VisitorLogsController.php on line 71
+[18-May-2017 15:37:23 Africa/Nairobi] PHP Fatal error:  Class 'frontend\controllers\VisitorProfiles' not found in /home/secudesk/public_html/frontdesk/frontend/controllers/VisitorLogsController.php on line 71
+[18-May-2017 15:37:52 Africa/Nairobi] PHP Fatal error:  Class 'frontend\controllers\VisitorProfiles' not found in /home/secudesk/public_html/frontdesk/frontend/controllers/VisitorLogsController.php on line 71
+[18-May-2017 15:40:08 Africa/Nairobi] PHP Fatal error:  Class 'frontend\controllers\Expression' not found in /home/secudesk/public_html/frontdesk/frontend/controllers/VisitorLogsController.php on line 76
+[18-May-2017 16:07:32 Africa/Nairobi] PHP Fatal error:  Class 'ArrayHelper' not found in /home/secudesk/public_html/frontdesk/frontend/views/visitor-logs/_form.php on line 45
+[18-May-2017 16:07:45 Africa/Nairobi] PHP Fatal error:  Class 'ArrayHelper' not found in /home/secudesk/public_html/frontdesk/frontend/views/visitor-logs/_form.php on line 45
+[18-May-2017 16:10:52 Africa/Nairobi] PHP Fatal error:  Class 'ClientHosts' not found in /home/secudesk/public_html/frontdesk/frontend/views/visitor-logs/_form.php on line 46
+[18-May-2017 16:11:43 Africa/Nairobi] PHP Fatal error:  Class 'ClientHosts' not found in /home/secudesk/public_html/frontdesk/frontend/views/visitor-logs/_form.php on line 46
+[18-May-2017 16:14:05 Africa/Nairobi] PHP Fatal error:  Class 'ClientHosts' not found in /home/secudesk/public_html/frontdesk/frontend/views/visitor-logs/_form.php on line 45
+[18-May-2017 16:14:14 Africa/Nairobi] PHP Fatal error:  Class 'ClientHosts' not found in /home/secudesk/public_html/frontdesk/frontend/views/visitor-logs/_form.php on line 45
+[18-May-2017 16:14:51 Africa/Nairobi] PHP Fatal error:  Class 'ClientHosts' not found in /home/secudesk/public_html/frontdesk/frontend/views/visitor-logs/_form.php on line 45
+[23-May-2017 16:22:49 Africa/Nairobi] PHP Parse error:  syntax error, unexpected '<' in /home/secudesk/public_html/frontdesk/frontend/views/visitor-logs/index.php on line 151
+[23-May-2017 16:23:06 Africa/Nairobi] PHP Parse error:  syntax error, unexpected ''headerOptions'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/secudesk/public_html/frontdesk/frontend/views/visitor-logs/index.php on line 163
+[23-May-2017 16:35:45 Africa/Nairobi] PHP Fatal error:  Class 'Expression' not found in /home/secudesk/public_html/frontdesk/frontend/views/visitor-logs/index.php on line 151
+[24-May-2017 14:10:24 Africa/Nairobi] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/secudesk/public_html/frontdesk/frontend/controllers/VisitorProfilesController.php on line 114
+[24-May-2017 14:11:17 Africa/Nairobi] PHP Fatal error:  Class 'frontend\controllers\ActiveDataProvider' not found in /home/secudesk/public_html/frontdesk/frontend/controllers/VisitorProfilesController.php on line 55
+[24-May-2017 14:11:53 Africa/Nairobi] PHP Fatal error:  Class 'frontend\controllers\VisitorLogs' not found in /home/secudesk/public_html/frontdesk/frontend/controllers/VisitorProfilesController.php on line 57
+[24-May-2017 14:12:18 Africa/Nairobi] PHP Fatal error:  Class 'GridView' not found in /home/secudesk/public_html/frontdesk/frontend/views/visitor-profiles/view.php on line 53
+[25-May-2017 11:41:08 Africa/Nairobi] PHP Fatal error:  Class 'frontend\controllers\Expression' not found in /home/secudesk/public_html/frontdesk/frontend/controllers/VehicleLogController.php on line 74
+[25-May-2017 11:45:20 Africa/Nairobi] PHP Fatal error:  Class 'frontend\controllers\Expression' not found in /home/secudesk/public_html/frontdesk/frontend/controllers/VehicleLogController.php on line 74
+[25-May-2017 11:45:43 Africa/Nairobi] PHP Fatal error:  Class 'frontend\controllers\Expression' not found in /home/secudesk/public_html/frontdesk/frontend/controllers/VehicleLogController.php on line 74
+[25-May-2017 11:45:50 Africa/Nairobi] PHP Fatal error:  Class 'frontend\controllers\Expression' not found in /home/secudesk/public_html/frontdesk/frontend/controllers/VehicleLogController.php on line 74
+[25-May-2017 11:46:40 Africa/Nairobi] PHP Fatal error:  Class 'frontend\controllers\Expression' not found in /home/secudesk/public_html/frontdesk/frontend/controllers/VehicleLogController.php on line 74
+[25-May-2017 11:49:19 Africa/Nairobi] PHP Fatal error:  Class 'ArrayHelper' not found in /home/secudesk/public_html/frontdesk/frontend/views/vehicle-log/_form.php on line 25
+[25-May-2017 11:49:31 Africa/Nairobi] PHP Fatal error:  Class 'ArrayHelper' not found in /home/secudesk/public_html/frontdesk/frontend/views/vehicle-log/_form.php on line 25
+[25-May-2017 11:49:58 Africa/Nairobi] PHP Fatal error:  Class 'ArrayHelper' not found in /home/secudesk/public_html/frontdesk/frontend/views/vehicle-log/_form.php on line 25
+[25-May-2017 11:50:05 Africa/Nairobi] PHP Fatal error:  Class 'ArrayHelper' not found in /home/secudesk/public_html/frontdesk/frontend/views/vehicle-log/_form.php on line 25
+[29-May-2017 21:26:30 Africa/Nairobi] PHP Fatal error:  Class 'app\models\Expression' not found in /home/secudesk/public_html/frontdesk/frontend/models/ClientHosts.php on line 49
+[30-May-2017 11:47:30 Africa/Nairobi] PHP Parse error:  syntax error, unexpected '}', expecting ']' in /home/secudesk/public_html/frontdesk/frontend/controllers/ClientHostsController.php on line 103
+[30-May-2017 15:20:04 Africa/Nairobi] PHP Fatal error:  Class 'app\models\Expression' not found in /home/secudesk/public_html/frontdesk/frontend/models/VehicleLog.php on line 43
+[30-May-2017 17:02:24 Africa/Nairobi] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/secudesk/public_html/frontdesk/frontend/views/site/login.php on line 31
+[30-May-2017 17:08:14 Africa/Nairobi] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/secudesk/public_html/frontdesk/frontend/views/site/login.php on line 30
+[30-May-2017 17:09:05 Africa/Nairobi] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/secudesk/public_html/frontdesk/frontend/views/site/login.php on line 30
+[30-May-2017 17:09:22 Africa/Nairobi] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/secudesk/public_html/frontdesk/frontend/views/site/login.php on line 34
+[05-Jun-2017 17:13:28 Africa/Nairobi] PHP Fatal error:  Class 'models\Clients' not found in /home/secudesk/public_html/frontdesk/frontend/models/SignupForm.php on line 58
+[05-Jun-2017 17:17:52 Africa/Nairobi] PHP Fatal error:  Class 'Clients' not found in /home/secudesk/public_html/frontdesk/frontend/models/SignupForm.php on line 58
+[05-Jun-2017 17:18:17 Africa/Nairobi] PHP Fatal error:  Class 'models\Clients' not found in /home/secudesk/public_html/frontdesk/frontend/models/SignupForm.php on line 58
+[05-Jun-2017 17:19:44 Africa/Nairobi] PHP Fatal error:  Class 'models\Clients' not found in /home/secudesk/public_html/frontdesk/frontend/models/SignupForm.php on line 58
+[05-Jun-2017 17:19:58 Africa/Nairobi] PHP Fatal error:  Class 'Clients' not found in /home/secudesk/public_html/frontdesk/frontend/models/SignupForm.php on line 58
+[05-Jun-2017 17:23:51 Africa/Nairobi] PHP Parse error:  syntax error, unexpected ';' in /home/secudesk/public_html/frontdesk/frontend/models/Clients.php on line 61
+[05-Jun-2017 17:24:30 Africa/Nairobi] PHP Parse error:  syntax error, unexpected ';' in /home/secudesk/public_html/frontdesk/frontend/models/Clients.php on line 61
+[06-Jul-2017 16:29:11 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 6291456) (tried to allocate 568 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/TableSchema.php on line 22
+[06-Jul-2017 16:29:46 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 7864320) (tried to allocate 78 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/log/Logger.php on line 144
+[06-Jul-2017 16:29:47 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 262144) (tried to allocate 12288 bytes) in /home/secudesk/public_html/frontdesk/vendor/composer/autoload_real.php on line 39
+[06-Jul-2017 16:32:06 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 1572864) (tried to allocate 1280 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/ErrorHandler.php on line 60
+[06-Jul-2017 16:32:47 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 2359296) (tried to allocate 12288 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/User.php on line 577
+[06-Jul-2017 16:36:05 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 32 bytes) in /home/secudesk/public_html/frontdesk/vendor/composer/autoload_classmap.php on line 341
+[06-Jul-2017 16:37:28 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/mysql.so' - libmysqlclient.so.18: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:37:28 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/mysqli.so' - libmysqlclient.so.18: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:37:28 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/pdo_mysql.so' - libmysqlclient.so.18: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:37:28 Africa/Nairobi] An Error occurred while handling another error:
+exception 'PDOException' with message 'could not find driver' in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php:602
+Stack trace:
+#0 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php(602): PDO->__construct('mysql:host=loca...', 'secudesk_ui', 'cn3@munar', NULL)
+#1 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php(544): yii\db\Connection->createPdoInstance()
+#2 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php(863): yii\db\Connection->open()
+#3 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php(850): yii\db\Connection->getMasterPdo()
+#4 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Command.php(219): yii\db\Connection->getSlavePdo()
+#5 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Command.php(894): yii\db\Command->prepare(true)
+#6 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#7 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Query.php(247): yii\db\Command->queryOne()
+#8 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/ActiveQuery.php(295): yii\db\Query->one(NULL)
+#9 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#10 /home/secudesk/public_html/frontdesk/common/models/User.php(65): yii\db\BaseActiveRecord::findOne(Array)
+#11 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/User.php(665): common\models\User::findIdentity(1)
+#12 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/User.php(188): yii\web\User->renewAuthStatus()
+#13 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/User.php(340): yii\web\User->getIdentity()
+#14 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Component.php(130): yii\web\User->getIsGuest()
+#15 /home/secudesk/public_html/frontdesk/frontend/views/layouts/main.php(83): yii\base\Component->__get('isGuest')
+#16 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/View.php(326): require('/home/secudesk/...')
+#17 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/View.php(248): yii\base\View->renderPhpFile('/home/secudesk/...', Array)
+#18 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(393): yii\base\View->renderFile('/home/secudesk/...', Array, Object(frontend\controllers\SiteController))
+#19 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(379): yii\base\Controller->renderContent('<div class="sit...')
+#20 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/ErrorAction.php(109): yii\base\Controller->render('error', Array)
+#21 [internal function]: yii\web\ErrorAction->run()
+#22 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#23 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\Action->runWithParams(Array)
+#24 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#25 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('site/error')
+#26 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#27 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#28 {main}
+
+Next exception 'yii\db\Exception' with message 'could not find driver' in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php:549
+Stack trace:
+#0 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php(863): yii\db\Connection->open()
+#1 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php(850): yii\db\Connection->getMasterPdo()
+#2 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Command.php(219): yii\db\Connection->getSlavePdo()
+#3 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Command.php(894): yii\db\Command->prepare(true)
+#4 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#5 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Query.php(247): yii\db\Command->queryOne()
+#6 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/ActiveQuery.php(295): yii\db\Query->one(NULL)
+#7 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#8 /home/secudesk/public_html/frontdesk/common/models/User.php(65): yii\db\BaseActiveRecord::findOne(Array)
+#9 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/User.php(665): common\models\User::findIdentity(1)
+#10 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/User.php(188): yii\web\User->renewAuthStatus()
+#11 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/User.php(340): yii\web\User->getIdentity()
+#12 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Component.php(130): yii\web\User->getIsGuest()
+#13 /home/secudesk/public_html/frontdesk/frontend/views/layouts/main.php(83): yii\base\Component->__get('isGuest')
+#14 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/View.php(326): require('/home/secudesk/...')
+#15 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/View.php(248): yii\base\View->renderPhpFile('/home/secudesk/...', Array)
+#16 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(393): yii\base\View->renderFile('/home/secudesk/...', Array, Object(frontend\controllers\SiteController))
+#17 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(379): yii\base\Controller->renderContent('<div class="sit...')
+#18 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/ErrorAction.php(109): yii\base\Controller->render('error', Array)
+#19 [internal function]: yii\web\ErrorAction->run()
+#20 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#21 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\Action->runWithParams(Array)
+#22 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#23 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('site/error')
+#24 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#25 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#26 {main}
+Additional Information:
+
+Previous exception:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "themes/adminUI/scriptsusers/".' in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Module.php:462
+Stack trace:
+#0 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('themes/adminUI/...', Array)
+#1 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/secudesk/public_html/frontdesk/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/Application.php:112
+Stack trace:
+#0 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/secudesk/public_html/frontdesk/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '34',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+    'DOCUMENT_ROOT' => '/home/secudesk/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'advanced-frontend=h4ciq46ujb7cl6gv1c92f5b2t0; _csrf-frontend=c23fd8ef6b12aedae31922569b88e1c78685330bae7eb62b984068093e00d22aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fXfFCeNgiAOFcCI3uu-yNup_FJTPUBwJ%22%3B%7D; _identity-frontend=0f7096f0f91464ca7300a5f5d5ad1e8f420467058eeaa1a6606949f69bf67287a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A20%3A%22%5B1%2C%22we323d%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'www.secudesk.co.ke',
+    'HTTP_ORIGIN' => 'chrome-extension://emclbdbpcnhmopfkidjhlinikkohlkpn',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => '',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'WV49GEUQ7tAAA5u@XXIAAABY',
+    'REDIRECT_URL' => '/frontdesk/frontend/web/themes/adminUI/scriptsusers/',
+    'REMOTE_ADDR' => '41.72.216.142',
+    'REMOTE_PORT' => '61799',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_URI' => '/frontdesk/frontend/web/themes/adminUI/scriptsusers/',
+    'SCRIPT_FILENAME' => '/home/secudesk/public_html/frontdesk/frontend/web/index.php',
+    'SCRIPT_NAME' => '/frontdesk/frontend/web/index.php',
+    'SERVER_ADDR' => '69.16.238.208',
+    'SERVER_ADMIN' => 'webmaster@secudesk.co.ke',
+    'SERVER_NAME' => 'www.secudesk.co.ke',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips DAV/2 mod_bwlimited/1.4',
+    'TZ' => 'Africa/Nairobi',
+    'UNIQUE_ID' => 'WV49GEUQ7tAAA5u@XXIAAABY',
+    'PHP_SELF' => '/frontdesk/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1499348248.5271570682525634765625,
+    'REQUEST_TIME' => 1499348248,
+]
+[06-Jul-2017 16:37:46 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/gd.so' - libt1.so.5: cannot map zero-fill pages: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:39:00 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 6815744) (tried to allocate 640 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/ActiveRelationTrait.php on line 167
+[06-Jul-2017 16:39:37 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 1048576) (tried to allocate 3072 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/BaseYii.php on line 288
+[06-Jul-2017 16:40:53 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/gd.so' - libt1.so.5: cannot map zero-fill pages: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:40:53 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/imap.so' - libc-client.so.2007: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:40:53 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/mbstring.so' - /opt/alt/php55/usr/lib64/php/modules/mbstring.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:40:53 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/mcrypt.so' - libmcrypt.so.4: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:40:53 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/mysql.so' - libmysqlclient.so.18: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:40:53 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/mysqli.so' - /opt/alt/php55/usr/lib64/php/modules/mysqli.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:40:53 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/pdo.so' - /opt/alt/php55/usr/lib64/php/modules/pdo.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:40:53 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/pdo_mysql.so' - libmysqlclient.so.18: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:40:53 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/pdo_sqlite.so' - libsqlite3.so.0: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:40:53 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/phar.so' - /opt/alt/php55/usr/lib64/php/modules/phar.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:40:53 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/pspell.so' - /opt/alt/php55/usr/lib64/php/modules/pspell.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:40:53 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/soap.so' - /opt/alt/php55/usr/lib64/php/modules/soap.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:40:53 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/sockets.so' - /opt/alt/php55/usr/lib64/php/modules/sockets.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:40:53 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/tidy.so' - /opt/alt/php55/usr/lib64/php/modules/tidy.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:40:53 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/wddx.so' - /opt/alt/php55/usr/lib64/php/modules/wddx.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:40:53 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/xmlreader.so' - /opt/alt/php55/usr/lib64/php/modules/xmlreader.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:40:53 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 6553600) (tried to allocate 12288 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Query.php on line 286
+[06-Jul-2017 16:40:53 Africa/Nairobi] PHP Fatal error:  Class 'PDO' not found in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php on line 633
+[06-Jul-2017 16:43:22 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 1572864) (tried to allocate 3072 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/ErrorHandler.php on line 56
+[06-Jul-2017 16:43:51 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 2883584) (tried to allocate 640 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/log/FileTarget.php on line 82
+[06-Jul-2017 16:43:51 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 7077888) (tried to allocate 12288 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/helpers/BaseFileHelper.php on line 567
+[06-Jul-2017 16:43:51 Africa/Nairobi] PHP Fatal error:  Uncaught exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/log/Dispatcher.php:186
+Stack trace:
+#0 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/log/Dispatcher.php(186): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', '/home/secudesk/...', 186, Array)
+#1 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#2 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/ErrorHandler.php(247): yii\log\Logger->flush(true)
+#3 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#4 {main}
+  thrown in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/log/Dispatcher.php on line 186
+[06-Jul-2017 16:45:38 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 3932160) (tried to allocate 2391 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Theme.php on line 71
+[06-Jul-2017 16:45:44 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 262144) (tried to allocate 12288 bytes) in /home/secudesk/public_html/frontdesk/vendor/composer/autoload_real.php on line 39
+[06-Jul-2017 16:45:44 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 3670016) (tried to allocate 49152 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/UrlRule.php on line 203
+[06-Jul-2017 16:46:41 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/mysql.so' - libmysqlclient.so.18: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:46:41 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/mysqli.so' - libmysqlclient.so.18: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:46:41 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/pdo_mysql.so' - libmysqlclient.so.18: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:46:41 Africa/Nairobi] An Error occurred while handling another error:
+exception 'PDOException' with message 'could not find driver' in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php:602
+Stack trace:
+#0 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php(602): PDO->__construct('mysql:host=loca...', 'secudesk_ui', 'cn3@munar', NULL)
+#1 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php(544): yii\db\Connection->createPdoInstance()
+#2 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php(863): yii\db\Connection->open()
+#3 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php(850): yii\db\Connection->getMasterPdo()
+#4 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Command.php(219): yii\db\Connection->getSlavePdo()
+#5 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Command.php(894): yii\db\Command->prepare(true)
+#6 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#7 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Query.php(247): yii\db\Command->queryOne()
+#8 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/ActiveQuery.php(295): yii\db\Query->one(NULL)
+#9 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#10 /home/secudesk/public_html/frontdesk/common/models/User.php(65): yii\db\BaseActiveRecord::findOne(Array)
+#11 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/User.php(665): common\models\User::findIdentity(1)
+#12 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/User.php(188): yii\web\User->renewAuthStatus()
+#13 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/User.php(340): yii\web\User->getIdentity()
+#14 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Component.php(130): yii\web\User->getIsGuest()
+#15 /home/secudesk/public_html/frontdesk/frontend/views/layouts/main.php(83): yii\base\Component->__get('isGuest')
+#16 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/View.php(326): require('/home/secudesk/...')
+#17 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/View.php(248): yii\base\View->renderPhpFile('/home/secudesk/...', Array)
+#18 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(393): yii\base\View->renderFile('/home/secudesk/...', Array, Object(frontend\controllers\SiteController))
+#19 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(379): yii\base\Controller->renderContent('<div class="sit...')
+#20 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/ErrorAction.php(109): yii\base\Controller->render('error', Array)
+#21 [internal function]: yii\web\ErrorAction->run()
+#22 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#23 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\Action->runWithParams(Array)
+#24 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#25 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('site/error')
+#26 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#27 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#28 {main}
+
+Next exception 'yii\db\Exception' with message 'could not find driver' in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php:549
+Stack trace:
+#0 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php(863): yii\db\Connection->open()
+#1 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php(850): yii\db\Connection->getMasterPdo()
+#2 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Command.php(219): yii\db\Connection->getSlavePdo()
+#3 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Command.php(894): yii\db\Command->prepare(true)
+#4 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#5 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Query.php(247): yii\db\Command->queryOne()
+#6 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/ActiveQuery.php(295): yii\db\Query->one(NULL)
+#7 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#8 /home/secudesk/public_html/frontdesk/common/models/User.php(65): yii\db\BaseActiveRecord::findOne(Array)
+#9 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/User.php(665): common\models\User::findIdentity(1)
+#10 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/User.php(188): yii\web\User->renewAuthStatus()
+#11 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/User.php(340): yii\web\User->getIdentity()
+#12 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Component.php(130): yii\web\User->getIsGuest()
+#13 /home/secudesk/public_html/frontdesk/frontend/views/layouts/main.php(83): yii\base\Component->__get('isGuest')
+#14 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/View.php(326): require('/home/secudesk/...')
+#15 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/View.php(248): yii\base\View->renderPhpFile('/home/secudesk/...', Array)
+#16 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(393): yii\base\View->renderFile('/home/secudesk/...', Array, Object(frontend\controllers\SiteController))
+#17 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(379): yii\base\Controller->renderContent('<div class="sit...')
+#18 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/ErrorAction.php(109): yii\base\Controller->render('error', Array)
+#19 [internal function]: yii\web\ErrorAction->run()
+#20 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#21 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\Action->runWithParams(Array)
+#22 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#23 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('site/error')
+#24 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#25 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#26 {main}
+Additional Information:
+
+Previous exception:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "themes/adminUI/vendor/jquery-uiadminarea/".' in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Module.php:462
+Stack trace:
+#0 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('themes/adminUI/...', Array)
+#1 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/secudesk/public_html/frontdesk/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/Application.php:112
+Stack trace:
+#0 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/secudesk/public_html/frontdesk/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '40',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+    'DOCUMENT_ROOT' => '/home/secudesk/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'advanced-frontend=h4ciq46ujb7cl6gv1c92f5b2t0; _csrf-frontend=c23fd8ef6b12aedae31922569b88e1c78685330bae7eb62b984068093e00d22aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fXfFCeNgiAOFcCI3uu-yNup_FJTPUBwJ%22%3B%7D; _identity-frontend=0f7096f0f91464ca7300a5f5d5ad1e8f420467058eeaa1a6606949f69bf67287a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A20%3A%22%5B1%2C%22we323d%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'www.secudesk.co.ke',
+    'HTTP_ORIGIN' => 'chrome-extension://emclbdbpcnhmopfkidjhlinikkohlkpn',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => '',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'WV4-QUUQ7tAAA6qqzfMAAADJ',
+    'REDIRECT_URL' => '/frontdesk/frontend/web/themes/adminUI/vendor/jquery-uiadminarea/',
+    'REMOTE_ADDR' => '41.72.216.142',
+    'REMOTE_PORT' => '63251',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_URI' => '/frontdesk/frontend/web/themes/adminUI/vendor/jquery-uiadminarea/',
+    'SCRIPT_FILENAME' => '/home/secudesk/public_html/frontdesk/frontend/web/index.php',
+    'SCRIPT_NAME' => '/frontdesk/frontend/web/index.php',
+    'SERVER_ADDR' => '69.16.238.208',
+    'SERVER_ADMIN' => 'webmaster@secudesk.co.ke',
+    'SERVER_NAME' => 'www.secudesk.co.ke',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips DAV/2 mod_bwlimited/1.4',
+    'TZ' => 'Africa/Nairobi',
+    'UNIQUE_ID' => 'WV4-QUUQ7tAAA6qqzfMAAADJ',
+    'PHP_SELF' => '/frontdesk/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1499348801.4516780376434326171875,
+    'REQUEST_TIME' => 1499348801,
+]
+[06-Jul-2017 16:47:03 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 1835008) (tried to allocate 262145 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/ErrorHandler.php on line 66
+[06-Jul-2017 16:47:15 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 6553600) (tried to allocate 12288 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Query.php on line 286
+[06-Jul-2017 16:47:15 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 4980736) (tried to allocate 12288 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/helpers/BaseHtml.php on line 1918
+[06-Jul-2017 16:48:35 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/mysql.so' - libmysqlclient.so.18: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:48:35 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/mysqli.so' - libmysqlclient.so.18: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:48:35 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/pdo_mysql.so' - libmysqlclient.so.18: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:48:35 Africa/Nairobi] An Error occurred while handling another error:
+exception 'PDOException' with message 'could not find driver' in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php:602
+Stack trace:
+#0 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php(602): PDO->__construct('mysql:host=loca...', 'secudesk_ui', 'cn3@munar', NULL)
+#1 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php(544): yii\db\Connection->createPdoInstance()
+#2 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php(863): yii\db\Connection->open()
+#3 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php(850): yii\db\Connection->getMasterPdo()
+#4 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Command.php(219): yii\db\Connection->getSlavePdo()
+#5 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Command.php(894): yii\db\Command->prepare(true)
+#6 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#7 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Query.php(247): yii\db\Command->queryOne()
+#8 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/ActiveQuery.php(295): yii\db\Query->one(NULL)
+#9 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#10 /home/secudesk/public_html/frontdesk/common/models/User.php(65): yii\db\BaseActiveRecord::findOne(Array)
+#11 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/User.php(665): common\models\User::findIdentity(1)
+#12 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/User.php(188): yii\web\User->renewAuthStatus()
+#13 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/User.php(340): yii\web\User->getIdentity()
+#14 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Component.php(130): yii\web\User->getIsGuest()
+#15 /home/secudesk/public_html/frontdesk/frontend/views/layouts/main.php(83): yii\base\Component->__get('isGuest')
+#16 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/View.php(326): require('/home/secudesk/...')
+#17 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/View.php(248): yii\base\View->renderPhpFile('/home/secudesk/...', Array)
+#18 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(393): yii\base\View->renderFile('/home/secudesk/...', Array, Object(frontend\controllers\SiteController))
+#19 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(379): yii\base\Controller->renderContent('<div class="sit...')
+#20 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/ErrorAction.php(109): yii\base\Controller->render('error', Array)
+#21 [internal function]: yii\web\ErrorAction->run()
+#22 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#23 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\Action->runWithParams(Array)
+#24 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#25 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('site/error')
+#26 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#27 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#28 {main}
+
+Next exception 'yii\db\Exception' with message 'could not find driver' in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php:549
+Stack trace:
+#0 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php(863): yii\db\Connection->open()
+#1 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php(850): yii\db\Connection->getMasterPdo()
+#2 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Command.php(219): yii\db\Connection->getSlavePdo()
+#3 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Command.php(894): yii\db\Command->prepare(true)
+#4 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#5 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Query.php(247): yii\db\Command->queryOne()
+#6 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/ActiveQuery.php(295): yii\db\Query->one(NULL)
+#7 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#8 /home/secudesk/public_html/frontdesk/common/models/User.php(65): yii\db\BaseActiveRecord::findOne(Array)
+#9 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/User.php(665): common\models\User::findIdentity(1)
+#10 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/User.php(188): yii\web\User->renewAuthStatus()
+#11 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/User.php(340): yii\web\User->getIdentity()
+#12 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Component.php(130): yii\web\User->getIsGuest()
+#13 /home/secudesk/public_html/frontdesk/frontend/views/layouts/main.php(83): yii\base\Component->__get('isGuest')
+#14 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/View.php(326): require('/home/secudesk/...')
+#15 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/View.php(248): yii\base\View->renderPhpFile('/home/secudesk/...', Array)
+#16 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(393): yii\base\View->renderFile('/home/secudesk/...', Array, Object(frontend\controllers\SiteController))
+#17 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(379): yii\base\Controller->renderContent('<div class="sit...')
+#18 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/ErrorAction.php(109): yii\base\Controller->render('error', Array)
+#19 [internal function]: yii\web\ErrorAction->run()
+#20 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#21 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\Action->runWithParams(Array)
+#22 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#23 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('site/error')
+#24 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#25 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#26 {main}
+Additional Information:
+
+Previous exception:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "themes/adminUI/vendor/jquery-uiusers/".' in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Module.php:462
+Stack trace:
+#0 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('themes/adminUI/...', Array)
+#1 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/secudesk/public_html/frontdesk/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/Application.php:112
+Stack trace:
+#0 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/secudesk/public_html/frontdesk/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '36',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+    'DOCUMENT_ROOT' => '/home/secudesk/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'advanced-frontend=h4ciq46ujb7cl6gv1c92f5b2t0; _csrf-frontend=c23fd8ef6b12aedae31922569b88e1c78685330bae7eb62b984068093e00d22aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fXfFCeNgiAOFcCI3uu-yNup_FJTPUBwJ%22%3B%7D; _identity-frontend=0f7096f0f91464ca7300a5f5d5ad1e8f420467058eeaa1a6606949f69bf67287a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A20%3A%22%5B1%2C%22we323d%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'www.secudesk.co.ke',
+    'HTTP_ORIGIN' => 'chrome-extension://emclbdbpcnhmopfkidjhlinikkohlkpn',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => '',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'WV4-s0UQ7tAAA6q00F4AAAJJ',
+    'REDIRECT_URL' => '/frontdesk/frontend/web/themes/adminUI/vendor/jquery-uiusers/',
+    'REMOTE_ADDR' => '41.72.216.142',
+    'REMOTE_PORT' => '63436',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_URI' => '/frontdesk/frontend/web/themes/adminUI/vendor/jquery-uiusers/',
+    'SCRIPT_FILENAME' => '/home/secudesk/public_html/frontdesk/frontend/web/index.php',
+    'SCRIPT_NAME' => '/frontdesk/frontend/web/index.php',
+    'SERVER_ADDR' => '69.16.238.208',
+    'SERVER_ADMIN' => 'webmaster@secudesk.co.ke',
+    'SERVER_NAME' => 'www.secudesk.co.ke',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips DAV/2 mod_bwlimited/1.4',
+    'TZ' => 'Africa/Nairobi',
+    'UNIQUE_ID' => 'WV4-s0UQ7tAAA6q00F4AAAJJ',
+    'PHP_SELF' => '/frontdesk/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1499348915.757862091064453125,
+    'REQUEST_TIME' => 1499348915,
+]
+[06-Jul-2017 16:48:36 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 32 bytes) in /home/secudesk/public_html/frontdesk/vendor/composer/autoload_classmap.php on line 340
+[06-Jul-2017 16:50:13 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/mysql.so' - libmysqlclient.so.18: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:50:13 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/mysqli.so' - libmysqlclient.so.18: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:50:13 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/pdo_mysql.so' - libmysqlclient.so.18: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:50:13 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 4718592) (tried to allocate 3072 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/helpers/BaseHtml.php on line 320
+[06-Jul-2017 16:50:13 Africa/Nairobi] An Error occurred while handling another error:
+exception 'PDOException' with message 'could not find driver' in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php:602
+Stack trace:
+#0 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php(602): PDO->__construct('mysql:host=loca...', 'secudesk_ui', 'cn3@munar', NULL)
+#1 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php(544): yii\db\Connection->createPdoInstance()
+#2 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php(863): yii\db\Connection->open()
+#3 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php(850): yii\db\Connection->getMasterPdo()
+#4 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Command.php(219): yii\db\Connection->getSlavePdo()
+#5 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Command.php(894): yii\db\Command->prepare(true)
+#6 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#7 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Query.php(247): yii\db\Command->queryOne()
+#8 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/ActiveQuery.php(295): yii\db\Query->one(NULL)
+#9 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#10 /home/secudesk/public_html/frontdesk/common/models/User.php(65): yii\db\BaseActiveRecord::findOne(Array)
+#11 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/User.php(665): common\models\User::findIdentity(1)
+#12 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/User.php(188): yii\web\User->renewAuthStatus()
+#13 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/User.php(340): yii\web\User->getIdentity()
+#14 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Component.php(130): yii\web\User->getIsGuest()
+#15 /home/secudesk/public_html/frontdesk/frontend/views/layouts/main.php(83): yii\base\Component->__get('isGuest')
+#16 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/View.php(326): require('/home/secudesk/...')
+#17 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/View.php(248): yii\base\View->renderPhpFile('/home/secudesk/...', Array)
+#18 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(393): yii\base\View->renderFile('/home/secudesk/...', Array, Object(frontend\controllers\SiteController))
+#19 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(379): yii\base\Controller->renderContent('<div class="sit...')
+#20 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/ErrorAction.php(109): yii\base\Controller->render('error', Array)
+#21 [internal function]: yii\web\ErrorAction->run()
+#22 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#23 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\Action->runWithParams(Array)
+#24 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#25 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('site/error')
+#26 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#27 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#28 {main}
+
+Next exception 'yii\db\Exception' with message 'could not find driver' in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php:549
+Stack trace:
+#0 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php(863): yii\db\Connection->open()
+#1 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Connection.php(850): yii\db\Connection->getMasterPdo()
+#2 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Command.php(219): yii\db\Connection->getSlavePdo()
+#3 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Command.php(894): yii\db\Command->prepare(true)
+#4 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#5 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/Query.php(247): yii\db\Command->queryOne()
+#6 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/ActiveQuery.php(295): yii\db\Query->one(NULL)
+#7 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#8 /home/secudesk/public_html/frontdesk/common/models/User.php(65): yii\db\BaseActiveRecord::findOne(Array)
+#9 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/User.php(665): common\models\User::findIdentity(1)
+#10 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/User.php(188): yii\web\User->renewAuthStatus()
+#11 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/User.php(340): yii\web\User->getIdentity()
+#12 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Component.php(130): yii\web\User->getIsGuest()
+#13 /home/secudesk/public_html/frontdesk/frontend/views/layouts/main.php(83): yii\base\Component->__get('isGuest')
+#14 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/View.php(326): require('/home/secudesk/...')
+#15 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/View.php(248): yii\base\View->renderPhpFile('/home/secudesk/...', Array)
+#16 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(393): yii\base\View->renderFile('/home/secudesk/...', Array, Object(frontend\controllers\SiteController))
+#17 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(379): yii\base\Controller->renderContent('<div class="sit...')
+#18 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/ErrorAction.php(109): yii\base\Controller->render('error', Array)
+#19 [internal function]: yii\web\ErrorAction->run()
+#20 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#21 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\Action->runWithParams(Array)
+#22 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#23 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('site/error')
+#24 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#25 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#26 {main}
+Additional Information:
+
+Previous exception:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "themes/adminUI/vendor/bootstrap/dist/jsadmin_area/".' in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Module.php:462
+Stack trace:
+#0 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('themes/adminUI/...', Array)
+#1 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/secudesk/public_html/frontdesk/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/Application.php:112
+Stack trace:
+#0 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/secudesk/public_html/frontdesk/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '23',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+    'DOCUMENT_ROOT' => '/home/secudesk/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'advanced-frontend=h4ciq46ujb7cl6gv1c92f5b2t0; _csrf-frontend=c23fd8ef6b12aedae31922569b88e1c78685330bae7eb62b984068093e00d22aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fXfFCeNgiAOFcCI3uu-yNup_FJTPUBwJ%22%3B%7D; _identity-frontend=0f7096f0f91464ca7300a5f5d5ad1e8f420467058eeaa1a6606949f69bf67287a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A20%3A%22%5B1%2C%22we323d%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'www.secudesk.co.ke',
+    'HTTP_ORIGIN' => 'chrome-extension://emclbdbpcnhmopfkidjhlinikkohlkpn',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => '',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'WV5AFUUQ7tAAA6qw0PQAAAFI',
+    'REDIRECT_URL' => '/frontdesk/frontend/web/themes/adminUI/vendor/bootstrap/dist/jsadmin_area/',
+    'REMOTE_ADDR' => '41.72.216.142',
+    'REMOTE_PORT' => '63643',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_URI' => '/frontdesk/frontend/web/themes/adminUI/vendor/bootstrap/dist/jsadmin_area/',
+    'SCRIPT_FILENAME' => '/home/secudesk/public_html/frontdesk/frontend/web/index.php',
+    'SCRIPT_NAME' => '/frontdesk/frontend/web/index.php',
+    'SERVER_ADDR' => '69.16.238.208',
+    'SERVER_ADMIN' => 'webmaster@secudesk.co.ke',
+    'SERVER_NAME' => 'www.secudesk.co.ke',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips DAV/2 mod_bwlimited/1.4',
+    'TZ' => 'Africa/Nairobi',
+    'UNIQUE_ID' => 'WV5AFUUQ7tAAA6qw0PQAAAFI',
+    'PHP_SELF' => '/frontdesk/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1499349013.658689975738525390625,
+    'REQUEST_TIME' => 1499349013,
+]
+[06-Jul-2017 16:50:43 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 7864320) (tried to allocate 77 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/log/Logger.php on line 144
+[06-Jul-2017 16:54:57 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 5505024) (tried to allocate 12288 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Security.php on line 468
+[06-Jul-2017 16:56:03 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 72 bytes) in /home/secudesk/public_html/frontdesk/vendor/composer/autoload_classmap.php on line 340
+[06-Jul-2017 16:57:15 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 6291456) (tried to allocate 3072 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/ActiveRecordInterface.php on line 228
+[06-Jul-2017 16:57:50 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 6291456) (tried to allocate 640 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/ActiveRecordInterface.php on line 228
+[06-Jul-2017 16:58:01 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 5242880) (tried to allocate 12288 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/AssetConverter.php on line 76
+[06-Jul-2017 16:58:03 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 4456448) (tried to allocate 384 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/ActionEvent.php on line 41
+[06-Jul-2017 16:58:06 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 4456448) (tried to allocate 248 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/ActionEvent.php on line 41
+[06-Jul-2017 16:58:08 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/pspell.so' - /opt/alt/php55/usr/lib64/php/modules/pspell.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:58:08 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/soap.so' - /opt/alt/php55/usr/lib64/php/modules/soap.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:58:08 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/sockets.so' - /opt/alt/php55/usr/lib64/php/modules/sockets.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:58:08 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/tidy.so' - /opt/alt/php55/usr/lib64/php/modules/tidy.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:58:08 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/wddx.so' - /opt/alt/php55/usr/lib64/php/modules/wddx.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:58:08 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/xmlreader.so' - /opt/alt/php55/usr/lib64/php/modules/xmlreader.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:58:08 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/xmlrpc.so' - /opt/alt/php55/usr/lib64/php/modules/xmlrpc.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:58:08 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/xmlwriter.so' - /opt/alt/php55/usr/lib64/php/modules/xmlwriter.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:58:08 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/xsl.so' - /opt/alt/php55/usr/lib64/php/modules/xsl.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:58:08 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/zip.so' - /opt/alt/php55/usr/lib64/php/modules/zip.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:58:11 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 5242880) (tried to allocate 12288 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/AssetConverter.php on line 76
+[06-Jul-2017 16:58:12 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 5505024) (tried to allocate 12288 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/base/Security.php on line 468
+[06-Jul-2017 16:58:17 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 6291456) (tried to allocate 3072 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/ActiveRecordInterface.php on line 228
+[06-Jul-2017 16:58:29 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 4718592) (tried to allocate 3072 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/helpers/BaseHtml.php on line 320
+[06-Jul-2017 16:58:31 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 5242880) (tried to allocate 12288 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/AssetConverter.php on line 76
+[06-Jul-2017 16:58:36 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/mysql.so' - libmysqlclient.so.18: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:58:36 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/mysqli.so' - libmysqlclient.so.18: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:58:36 Africa/Nairobi] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php55/usr/lib64/php/modules/pdo_mysql.so' - libmysqlclient.so.18: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[06-Jul-2017 16:59:29 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 262144) (tried to allocate 12288 bytes) in /home/secudesk/public_html/frontdesk/vendor/composer/autoload_real.php on line 39
+[06-Jul-2017 16:59:39 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 7340032) (tried to allocate 3072 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/QueryBuilder.php on line 425
+[06-Jul-2017 17:00:43 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 7077888) (tried to allocate 12288 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/db/mysql/Schema.php on line 284
+[06-Jul-2017 17:01:12 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 8126464) (tried to allocate 65552 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/i18n/I18N.php on line 130
+[06-Jul-2017 17:01:17 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 3407872) (tried to allocate 12288 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/mail/BaseMailer.php on line 201
+[06-Jul-2017 17:02:28 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 8126464) (tried to allocate 65552 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/i18n/I18N.php on line 130
+[06-Jul-2017 17:02:31 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 4718592) (tried to allocate 640 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/helpers/BaseHtml.php on line 320
+[06-Jul-2017 17:03:20 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 8388608) (tried to allocate 65552 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/i18n/I18N.php on line 130
+[06-Jul-2017 17:03:46 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 12288 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/Response.php on line 504
+[06-Jul-2017 17:03:46 Africa/Nairobi] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class yii\web\Response does not exist' in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/di/Container.php:422
+Stack trace:
+#0 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/di/Container.php(422): ReflectionClass->__construct('yii\\web\\Respons...')
+#1 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/di/Container.php(362): yii\di\Container->getDependencies('yii\\web\\Respons...')
+#2 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/di/Container.php(154): yii\di\Container->build('yii\\web\\Respons...', Array, Array)
+#3 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\Respons...', Array, Array)
+#4 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#5 /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/web/Application.php(166): yii\di\ServiceLocator->get('response')
+#6 /home/secudesk/public_html/ in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/di/Container.php on line 422
+[06-Jul-2017 17:03:56 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 4980736) (tried to allocate 12288 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/helpers/BaseHtml.php on line 1918
+[06-Jul-2017 17:05:33 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 4980736) (tried to allocate 12288 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2/helpers/BaseHtml.php on line 1918
+[06-Jul-2017 17:05:33 Africa/Nairobi] PHP Fatal error:  Out of memory (allocated 8388608) (tried to allocate 32 bytes) in /home/secudesk/public_html/frontdesk/vendor/yiisoft/yii2-debug/LogTarget.php on line 88

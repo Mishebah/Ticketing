@@ -1,0 +1,39 @@
+{
+    "name": "slim/slim-skeleton",
+    "description": "A Slim Framework skeleton application for rapid development",
+    "keywords": ["microframework", "rest", "router", "psr7"],
+    "homepage": "http://github.com/slimphp/Slim-Skeleton",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josh Lockhart",
+            "email": "info@joshlockhart.com",
+            "homepage": "http://www.joshlockhart.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "entomb/slim-json-api": "dev-master",
+        "slim/slim": "^3.1",
+        "slim/php-view": "^2.0",
+        "monolog/monolog": "^1.17",
+        "respect/validation": "^1.1"
+    },
+    "require-dev": {
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+	"autoload": {
+    "psr-4": {
+        "App\\": "app/" 
+    },
+		"classmap": ["app/lib/logger/","app/lib/db/","app/lib/","app/Conf/","app/src/Authenticator"]
+},
+    "config": {
+        "process-timeout" : 0
+    }
+
+}
